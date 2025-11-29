@@ -1,0 +1,7 @@
+2025/11/29-10:48:16.746 65b4 Reusing MANIFEST C:\Users\rtano\デスクトップ\Dev2\article-agent\human_assisted_flow\user_data\Default\IndexedDB\https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/29-10:48:16.746 65b4 Recovering log #3
+2025/11/29-10:48:16.747 65b4 Reusing old log C:\Users\rtano\デスクトップ\Dev2\article-agent\human_assisted_flow\user_data\Default\IndexedDB\https_chatgpt.com_0.indexeddb.leveldb/000003.log 
+2025/11/29-10:48:16.764 2c4c Level-0 table #5: started
+2025/11/29-10:48:16.766 2c4c Level-0 table #5: 1824 bytes OK
+2025/11/29-10:48:16.768 2c4c Delete type=0 #3
+2025/11/29-10:48:16.769 65b4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

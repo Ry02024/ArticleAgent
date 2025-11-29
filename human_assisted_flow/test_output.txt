@@ -1,0 +1,36 @@
+..E..
+======================================================================
+ERROR: test_get_latest_response_failure (__main__.TestHumanAssistedFlow.test_get_latest_response_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\rtano\デスクトップ\Dev2\article-agent\human_assisted_flow\test_flow.py", line 48, in test_get_latest_response_failure
+    text, element = get_latest_response(mock_page, ".selector")
+    ^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.026s
+
+FAILED (errors=1)
+Waiting for response element: .selector
+Waiting for response element: .selector
+Launching browser with user data: C:\Users\rtano\デスクトップ\Dev2\article-agent\human_assisted_flow\test
+Opening Gemini...
+Opening ChatGPT...
+
+--- PLEASE LOG IN TO BOTH SERVICES IF NEEDED ---
+Press Enter in this terminal when you are ready to start the flow.
+
+=== Starting Phase 1: Test ===
+Prompt for chatgpt copied to clipboard.
+Switching to chatgpt tab...
+Attempting to paste prompt into input area...
+
+>>> ACTION REQUIRED: Press ENTER in the chatgpt browser tab to send the message. <<<
+>>> After the response is complete, press ENTER HERE in the terminal to continue. <<<
+Extracting response from chatgpt...
+Response extracted successfully.
+Screenshot saved to screenshots/phase_1.png
+
+=== Flow Complete ===
+Final article saved to final_article.md
